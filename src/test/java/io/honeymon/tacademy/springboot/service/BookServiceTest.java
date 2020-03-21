@@ -1,21 +1,20 @@
 package io.honeymon.tacademy.springboot.service;
 
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-@RunWith(SpringRunner.class)
+@ExtendWith(SpringExtension.class)
 @SpringBootTest(webEnvironment=WebEnvironment.NONE)
 public class BookServiceTest {
 	
 	@Autowired
 	BookService booService;
 	
-	@Test
-	//( expected=RuntimeException.class )
+	@Test//(expected = RuntimeException.class)
 	public void testFindById() {
 		Long id = 1L;
 		booService.findById(id)
