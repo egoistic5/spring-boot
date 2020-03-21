@@ -27,7 +27,7 @@ public class BookRepositoryTest {
 		
 		repository.save(book);
 		
-		assertThat(book.isNew()).isTrue();
+		assertThat(book.isNew()).isFalse();
 	}
 	
 	@Test
@@ -39,7 +39,8 @@ public class BookRepositoryTest {
 		
 		repository.save(book);
 		
-		List<Book> books = repository.findByNameLike("boot");
+		List<Book> books = repository.findByNameLike("boot-spring-boot");
+		
 		assertThat(books).isNotEmpty();
 		
 		books = repository.findByNameLike("book");
