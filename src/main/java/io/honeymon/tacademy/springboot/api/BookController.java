@@ -16,8 +16,8 @@ public class BookController {
 	@Autowired
 	BookService bookService;
 	
-	@GetMapping("/{bookId")
-	public ResponseEntity findById(@PathVariable Long bookId) {
+	@GetMapping("/{bookId}")
+	public ResponseEntity<Book> findById(@PathVariable Long bookId) {
 		Book book = bookService.findById(bookId)
 				.orElseThrow(() -> new RuntimeException("Not found : " + bookId));
 		return ResponseEntity.ok(book);
