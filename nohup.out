@@ -1,0 +1,26 @@
+Helllllllooo-----------
+2020-04-01 21:38:38.606  INFO 24040 --- [           main] i.h.tacademy.springboot.Application      : Starting Application on minseon-ui-MacBookPro.local with PID 24040 (/Users/minsun/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/spring-boot/build/libs/spring-boot-0.0.1-SNAPSHOT.jar started by minsun in /Users/minsun/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/spring-boot)
+2020-04-01 21:38:38.608  INFO 24040 --- [           main] i.h.tacademy.springboot.Application      : No active profile set, falling back to default profiles: default
+2020-04-01 21:38:39.038  INFO 24040 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-04-01 21:38:39.084  INFO 24040 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 1 JPA repository interfaces.
+2020-04-01 21:38:39.541  INFO 24040 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-04-01 21:38:39.551  INFO 24040 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-01 21:38:39.552  INFO 24040 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-01 21:38:39.597  INFO 24040 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-01 21:38:39.597  INFO 24040 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 956 ms
+2020-04-01 21:38:39.634  INFO 24040 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-01 21:38:39.826  INFO 24040 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-01 21:38:39.831  INFO 24040 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-04-01 21:38:39.948  INFO 24040 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-01 21:38:40.004  INFO 24040 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-01 21:38:40.118  INFO 24040 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-01 21:38:40.196  INFO 24040 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-04-01 21:38:40.651  INFO 24040 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-01 21:38:40.655  INFO 24040 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-01 21:38:40.932  WARN 24040 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-01 21:38:41.033  INFO 24040 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-01 21:38:41.200  INFO 24040 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-01 21:38:41.202  INFO 24040 --- [           main] i.h.tacademy.springboot.Application      : Started Application in 3.186 seconds (JVM running for 3.559)
+2020-04-01 21:55:23.545  INFO 24040 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-01 21:55:23.545  INFO 24040 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-01 21:55:23.549  INFO 24040 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
